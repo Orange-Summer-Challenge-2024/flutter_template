@@ -19,4 +19,5 @@ samples, guidance on mobile development, and a full API reference.
 
 - Install [Flutter freezed Helpers](https://marketplace.visualstudio.com/items?itemName=mthuong.vscode-flutter-freezed-helper)
 - When creating a new API model use **frf** or **fcf**
-- Run dart run build_runner build
+- Run ```dart run build_runner build```
+

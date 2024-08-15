@@ -6,8 +6,7 @@ class AuthenticationRemoteService {
 
   AuthenticationRemoteService(this._networkClient);
 
-  Future<UserApiModel> login(String email, String password) async {
-    final response = await _networkClient.getRequest("path");
-    return UserApiModel.fromJson(response.data);
+  Future<Response> login(String email, String password) async {
+    return await _networkClient.getRequest("path");
   }
 }
